@@ -1,0 +1,58 @@
+.header {
+    background: url('images/torshavn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    padding: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.panel-pull {
+    background-color: $my-darkgray;
+    padding: 10px;
+
+    .text {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    div {
+        margin-right: 10px;
+    }
+}
+
+.x-list {
+    .x-itemheader {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        background-color: $my-black;
+        color: $my-orange;
+        letter-spacing: 0.1em;
+    }
+    .x-listitem {
+        font-size: 1.2em;
+        .desc {
+            font-size: 0.8em;
+            color: $my-gray;
+        }
+        .btn {
+            display: inline-block;
+            background: $my-orange;
+            text-align: center;
+            padding: 3px 10px;
+        }
+    }
+    &.flex-items .x-innerhtml {
+        width: 100%;
+    }
+}

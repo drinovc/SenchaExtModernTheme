@@ -1,0 +1,291 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "flex-items"
+        ],
+        "designer|initialView": true,
+        "designer|userAlias": "mylist",
+        "designer|userClassName": "MyList",
+        "disableSelection": true,
+        "groupHeader": [
+            "{\"xtype\":\"itemheader\",\"tpl\":\"{html}\"}"
+        ],
+        "grouped": true,
+        "store": "ListStore"
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "disableSelection": "boolean",
+        "groupHeader": "object",
+        "grouped": "boolean",
+        "store": "store",
+        "cls": "typedarray"
+    },
+    "name": "MyList",
+    "designerId": "993e7fc8-431a-4adf-b434-1696f3f8c73b",
+    "viewControllerInstanceId": "28b25165-0c36-4d1c-b384-f1d81539429d",
+    "viewModelInstanceId": "d30e6af0-730a-4b43-9fa4-90ad956b8334",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "itemTpl",
+                "implHandler": [
+                    "<div class=\"flex\">",
+                    "    <div style=\"flex: 1;\">{name}</div> ",
+                    "    <div>{size}</div> ",
+                    "    <div>{price}</div>",
+                    "    <div class=\"btn\">ADD</div>",
+                    "</div>",
+                    "<div class=\"desc\">{desc}</div>"
+                ]
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "implHandler": "code"
+            },
+            "name": "itemTpl",
+            "designerId": "17e048ee-b839-477a-a6e8-f9a735e98b00"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "TORSHAVN"
+            },
+            "configAlternates": {
+                "docked": "string",
+                "title": "string"
+            },
+            "name": "MyToolbar",
+            "designerId": "b60c0183-486e-4748-ab7c-a83dbc087f2e",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "iconCls": "x-fa fa-bars",
+                        "text": "",
+                        "ui": "plain"
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "iconCls": "string",
+                        "text": "string",
+                        "ui": "string"
+                    },
+                    "name": "MyButton",
+                    "designerId": "901df225-a435-4d22-94d2-a0f2f3729282"
+                },
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySpacer",
+                    "designerId": "78d9b6b8-9a77-4e20-9341-eb8a69ad1c02"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "iconCls": "x-fa fa-search",
+                        "text": "",
+                        "ui": "plain"
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "iconCls": "string",
+                        "text": "string",
+                        "ui": "string"
+                    },
+                    "name": "MyButton1",
+                    "designerId": "a6e7ed2a-4d47-4cc5-bac2-536af9c0ee64"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "header"
+                ],
+                "container|pack": "center",
+                "docked": "top",
+                "html": "Champagne, Wine, Vermouth&nbsp;Fortified&nbsp;Wines",
+                "layout": "vbox"
+            },
+            "configAlternates": {
+                "cls": "typedarray",
+                "container|pack": "string",
+                "docked": "string",
+                "height": "auto",
+                "html": "string",
+                "layout": "string"
+            },
+            "name": "MyContainer",
+            "designerId": "0ced5be3-9d48-4fa5-ad7d-d493a243c35e"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "panel-pull"
+                ],
+                "container|align": "center",
+                "container|pack": "center",
+                "docked": "bottom",
+                "layout": "hbox"
+            },
+            "configAlternates": {
+                "cls": "typedarray",
+                "container|align": "string",
+                "container|pack": "string",
+                "docked": "string",
+                "layout": "string"
+            },
+            "name": "MyContainer1",
+            "designerId": "3036cd17-2e80-4f08-974b-3035ee7c1566",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "round",
+                        "iconCls": "x-fa fa-chevron-up",
+                        "text": "",
+                        "ui": "round"
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "iconCls": "string",
+                        "text": "string",
+                        "ui": "string"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "e21dfa3c-2989-43a2-85f7-befffb61b824"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "text"
+                        ],
+                        "html": "PULL UP FOR DETAILS"
+                    },
+                    "configAlternates": {
+                        "cls": "typedarray",
+                        "html": "string"
+                    },
+                    "name": "MyLabel",
+                    "designerId": "9d2293fa-4e6e-44fa-8480-3eca98a58827"
+                },
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySpacer2",
+                    "designerId": "dfed0f59-7013-408b-9f4f-e3d3c6100107"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "text"
+                        ],
+                        "html": "<i class=\"fa fa-glass\"></i>x2 $45"
+                    },
+                    "configAlternates": {
+                        "cls": "typedarray",
+                        "html": "string"
+                    },
+                    "name": "MyLabel1",
+                    "designerId": "1b17be6d-a002-4ccd-9e66-5488992a6488"
+                },
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySpacer1",
+                    "designerId": "29be7d90-038f-4241-9459-14b3ef491474"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Confirm Order"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "a59d0458-efa8-4e7e-ab5a-1cf0efe298d0"
+                }
+            ]
+        }
+    ]
+}

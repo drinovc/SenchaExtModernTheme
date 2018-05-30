@@ -1,0 +1,12 @@
+$base-color: rgba(255,255,255,1);
+$button-background-color: #fc7202;
+$button-border-radius: 0px;
+$dataview-item-hovered-background-color: rgba(0,0,0,0);
+$dark-mode: true;
+$background-color: if($dark-mode, #101010, #fafafa);
+$reverse-background-color: if($dark-mode, #101010, #303030);
+$alt-background-color: if($dark-mode, #101010, #f5f5f5);
+$my-black: #101010;
+$my-orange: #fc7202;
+$my-gray: #6f6f6f;
+$my-darkgray: #272727;

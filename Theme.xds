@@ -1,0 +1,54 @@
+{
+    "name": "Theme",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.5.3.6",
+            "frameworkVersion": "6.5.3.57"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:21111/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPad",
+                "builtIn": true,
+                "height": 1024,
+                "width": 768
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.2.3",
+    "xdsBuild": 371,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern65",
+    "viewOrderMap": {
+        "view": [
+            "993e7fc8-431a-4adf-b434-1696f3f8c73b",
+            "d30e6af0-730a-4b43-9fa4-90ad956b8334",
+            "28b25165-0c36-4d1c-b384-f1d81539429d"
+        ],
+        "store": [
+            "2a3844a9-b0bd-4f8d-bd2f-64cb00bd2d61"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "25fbc31e-ade9-4e5c-baca-681668ef549c",
+            "6917a684-2186-4d7d-9dbe-ceb109253974",
+            "6c1e4d93-62c7-429b-b715-6ea49c4efdf6"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

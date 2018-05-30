@@ -1,0 +1,61 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[{",
+            "    group: 'Champagne & Sparkling Wine',",
+            "    name: 'Prosecco Casa Burti',",
+            "    price: '$ 35',",
+            "    size: '75 CL'",
+            "},",
+            "{",
+            "    group: 'Champagne & Sparkling Wine',",
+            "    name: 'Veuve Cliquot Brut',",
+            "    price: '$ 82',",
+            "    size: '75 CL'",
+            "},",
+            "{",
+            "    group: 'Wine',",
+            "    name: 'Lillet, blanc',",
+            "    price: '$ 8',",
+            "    size: '6 CL'",
+            "},",
+            "{",
+            "    group: 'Wine',",
+            "    name: 'Lillet, rouge',",
+            "    price: '$ 8',",
+            "    size: '6 CL'",
+            "},",
+            "{",
+            "    group: 'Fortified Wine',",
+            "    name: 'Bodegas Williams & Humbert',",
+            "    price: '$ 11',",
+            "    size: '6 CL',",
+            "    desc: 'Collection Fino, sherry'",
+            "},",
+            "{",
+            "    group: 'Fortified Wine',",
+            "    name: 'Bodegas Williams & Humbert',",
+            "    price: '$ 15',",
+            "    size: '6 CL',",
+            "    desc: 'Collection Olorosso, sherry, 12 Yrs'",
+            "}]"
+        ],
+        "designer|userClassName": "ListStore",
+        "groupField": "group",
+        "storeId": "ListStore"
+    },
+    "configAlternates": {
+        "data": "array",
+        "designer|userClassName": "string",
+        "groupField": "datafield",
+        "storeId": "string"
+    },
+    "name": "MyStore",
+    "designerId": "2a3844a9-b0bd-4f8d-bd2f-64cb00bd2d61"
+}

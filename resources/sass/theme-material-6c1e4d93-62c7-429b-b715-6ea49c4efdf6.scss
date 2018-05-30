@@ -1,0 +1,75 @@
+$base-color: rgba(255,255,255,1);
+$button-background-color: #fc7202;
+$button-border-radius: 0px;
+$dataview-item-hovered-background-color: rgba(0,0,0,0);
+$dark-mode: true;
+$background-color: if($dark-mode, #101010, #fafafa);
+$reverse-background-color: if($dark-mode, #101010, #303030);
+$alt-background-color: if($dark-mode, #101010, #f5f5f5);
+$my-black: #101010;
+$my-orange: #fc7202;
+$my-gray: #6f6f6f;
+$my-darkgray: #272727;
+
+@import 'sencha-modern/default';
+@import 'sencha-modern/default/all';
+
+
+.header {
+    background: url('images/torshavn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    padding: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.panel-pull {
+    background-color: $my-darkgray;
+    padding: 10px;
+
+    .text {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    div {
+        margin-right: 10px;
+    }
+}
+
+.x-list {
+    .x-itemheader {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        background-color: $my-black;
+        color: $my-orange;
+        letter-spacing: 0.1em;
+    }
+    .x-listitem {
+        font-size: 1.2em;
+        .desc {
+            font-size: 0.8em;
+            color: $my-gray;
+        }
+        .btn {
+            display: inline-block;
+            background: $my-orange;
+            text-align: center;
+            padding: 3px 10px;
+        }
+    }
+    &.flex-items .x-innerhtml {
+        width: 100%;
+    }
+}
